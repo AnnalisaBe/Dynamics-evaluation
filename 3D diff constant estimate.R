@@ -109,7 +109,7 @@ model_t_df=NULL
 
 Dm<-coeff_t$Dm
 
-xm1 <- 1:max(T)
+xm1 <- 0:max(T)
 model_t_df$time <- xm1
 
 ym <- sqrt(6*Dm*xm1)
